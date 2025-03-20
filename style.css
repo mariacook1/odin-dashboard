@@ -131,3 +131,60 @@ button{
     flex-grow: .5;
     padding-left: 5px;
 }
+.body-container{
+    display: inline-grid;
+    grid-template: 300px 300px / 300px 300px 300px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.projects{
+    background-color: rgb(226, 232, 240);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: inline-grid;
+    grid-template: 150px 150px 150px/ 275px 275px;
+    height: 100%;
+    box-sizing: border-box;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.announcements{
+    background-color: aquamarine;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: inline-grid;
+    grid-template: 100px 100px 100px/ 300px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.trending{
+    background-color: burlywood;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: inline-grid;
+    grid-template: 75px 75px 75px 75px/ 300px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.project-card{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+ .project-card > h2 {
+    font-size: 15px;
+    padding-top: 10px;
+ }
+ .project-card > p {
+    font-size: 10px;
+    color: grey;
+ }
