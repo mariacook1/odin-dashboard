@@ -153,24 +153,26 @@ button{
     padding-left: 10px;
 }
 .announcements{
-    background-color: aquamarine;
+    background-color: rgb(226, 232, 240);
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
     display: inline-grid;
-    grid-template: 100px 100px 100px/ 300px;
+    grid-template: 80px 80px 80px/ 290px;
     height: 100%;
     box-sizing: border-box;
+    padding-top: 40px;
+    
 }
 .trending{
-    background-color: burlywood;
+    background-color: rgb(226, 232, 240);
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
     display: inline-grid;
-    grid-template: 75px 75px 75px 75px/ 300px;
+    grid-template: 58px 58px 58px 58px/ 290px;
     height: 100%;
     box-sizing: border-box;
 }
@@ -188,3 +190,56 @@ button{
     font-size: 10px;
     color: grey;
  }
+.announce-card{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+.announce-card > h2{
+    font-size: 12px;
+    padding-left: 10px;
+}
+.announce-card > p{
+    font-size: 8px;
+    padding-left: 10px;
+    color: grey;
+}
+.trending-card{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  
+}
+.trending-card > h2 {
+    font-size: 14px;
+    padding-left: 10px;
+    flex-grow: 1;
+}
+.trending-card > p {
+    font-size: 10px;
+    color: grey;
+    flex-grow: 1;
+}
+.trending-card > img {
+    width: 5px;
+    border-radius: 50%;
+    flex-grow: .75;
+    margin-left: 10px;
+    height: 60%;
+    margin-top: 10px;
+}
+.tegan{
+    background-color: pink;
+}
+.morgan{
+    background-color: lightskyblue;
+}
+.kendall{
+    background-color: lightseagreen;
+}
+.alex{
+    background-color: rgb(228, 179, 87)
+}
